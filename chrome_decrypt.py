@@ -35,7 +35,7 @@ if len(data) > 0:
             password = win32crypt.CryptUnprotectData(result[2], None, None, None, 0)[1]
         except Exception as e:
             print('[-] %s' % (e))
-            pass
+            continue
         if password:
             print('''[+] URL: %s
     Username: %s 
