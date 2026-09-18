@@ -1,2 +1,13 @@
 build/
+dist/
 *.spec
+*.exe
+__pycache__/
+*.py[cod]
+.venv/
+.codegraph/
+.env
+passwords*.csv
+Chrome Passwords*.csv
+Login Data*
+Local State
